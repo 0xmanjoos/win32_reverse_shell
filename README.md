@@ -32,4 +32,4 @@ Compiling on Windows:
 ```
 g++ main.cpp -lws2_32 -static
 ```
-### Note: I am using mingw compiler on windows as well, there may be some issues with compiling on something like vscode but hey not my fault I dont use a terrible IDE.
+Note: I am using mingw compiler on windows as well, there may be some issues with compiling on something like vs studio but hey not my fault I dont use a terrible IDE.
