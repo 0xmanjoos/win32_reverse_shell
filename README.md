@@ -17,3 +17,8 @@ using std::vector;
 using std::ostringstream;
 ```
 I plan to implement this into win32 shellcode, then ATTEMPT to make it polymorphic for AV/EDR evasion. I also plan to hopefully implement API unhooking in case those pesky AV's have some tricks up their sleeves.
+
+Compile:
+```bash
+i686-w64-mingw32-g++ main.cpp -lws2_32 -static
+```
