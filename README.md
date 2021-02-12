@@ -26,5 +26,5 @@ Currently, this would probably be caught by any good antivirus, but in the futur
 
 Compile:
 ```bash
-i686-w64-mingw32-g++ main.cpp -lws2_32 -static
+x86_64-w64-mingw32-g++ main.cpp -lws2_32 -static
 ```
