@@ -1,5 +1,5 @@
 # win32_reverse_shell
-#### A reverse shell written in c++, supports DNS name resolution, so you can use this with NGROK or whatever you use
+#### A reverse shell written in c++, supports DNS name resolution, so you can use this with NGROK.
 
 As long as this program is running, it will constantly call back to the original listener in 5 second intervals, so accidentally SIGTERM'd netcat? 
 
