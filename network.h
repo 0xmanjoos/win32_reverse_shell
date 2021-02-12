@@ -1,5 +1,4 @@
 #pragma once
-#define _WIN32_WINNT 0x501
 #include "includes.h"
 
 void p2pShell(const char* remoteAddr, int remotePort) {
