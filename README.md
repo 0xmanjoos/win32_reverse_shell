@@ -1,6 +1,8 @@
 # win32_reverse_shell
 A reverse shell written in c++, supports DNS name resolution, so you can use this with NGROK or whatever you use
 
+As long as this program is running, it will constantly call back to the original listener in 5 second intervals, so accidentally SIGTERM'd netcat? No problem :D
+
 Obviously, the includes.h is my general includes file that I use for basically every project. If you feel the need to lighten up the size of your binary feel free to strip the following headers out:
 ```
 #include <iostream>
