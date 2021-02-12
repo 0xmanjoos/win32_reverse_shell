@@ -24,11 +24,11 @@ using std::ostringstream;
 ```
 Currently, this would probably be caught by any good antivirus, but in the future I plan to implement this into win32 shellcode, then ATTEMPT to make it polymorphic for AV/EDR evasion. I also plan to hopefully implement API unhooking in case those pesky AV's have some tricks up their sleeves.
 
-*Compiling on Linux:
+*Compiling on Linux:*
 ```bash
 x86_64-w64-mingw32-g++ main.cpp -lws2_32 -static
 ```
-*Compiling on Windows:
+*Compiling on Windows:*
 ```
 g++ main.cpp -lws2_32 -static
 ```
