@@ -13,6 +13,7 @@
 #pragma comment(lib, "ws2_32.lib")
 
 #define BUFFER 1024
+#define TIMELEN 5000
 
 // debugging
 using std::cout;
