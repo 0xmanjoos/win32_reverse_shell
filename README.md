@@ -16,3 +16,4 @@ using std::queue;
 using std::vector;
 using std::ostringstream;
 ```
+I plan to implement this into win32 shellcode, then ATTEMPT to make it polymorphic for AV/EDR evasion. I also plan to hopefully implement API unhooking in case those pesky AV's have some tricks up their sleeves.
