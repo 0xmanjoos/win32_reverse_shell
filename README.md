@@ -5,7 +5,9 @@ As long as this program is running, it will constantly call back to the original
 
 No problem :D
 
-Obviously, the includes.h is my general includes file that I use for basically every project. If you feel the need to lighten up the size of your binary feel free to strip the following headers out:
+Obviously, the includes.h is my general includes file that I use for basically every project. 
+
+If you feel the need to lighten up the size of your binary feel free to strip the following headers out:
 ```
 #include <iostream>
 #include <time.h>
